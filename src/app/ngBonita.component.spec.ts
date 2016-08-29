@@ -1,20 +1,20 @@
 /* tslint:disable:no-unused-variable */
 
 import { addProviders, async, inject } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { NgBonitaComponent } from './ngBonita.component';
 
 describe('App: @NgBonita', () => {
   beforeEach(() => {
-    addProviders([AppComponent]);
+    addProviders([NgBonitaComponent]);
   });
 
   it('should create the app',
-    inject([AppComponent], (app: AppComponent) => {
+    inject([NgBonitaComponent], (app: NgBonitaComponent) => {
       expect(app).toBeTruthy();
     }));
 
   it('should have as title \'app works!\'',
-    inject([AppComponent], (app: AppComponent) => {
+    inject([NgBonitaComponent], (app: NgBonitaComponent) => {
       expect(app.title).toEqual('app works!');
     }));
 });

@@ -1,10 +1,13 @@
 {
   "globalDevDependencies": {
     "angular-protractor": "registry:dt/angular-protractor#1.5.0+20160425143459",
+    "gulp": "registry:dt/gulp#3.8.0+20160724062653",
+    "gulp-typescript": "registry:dt/gulp-typescript#0.0.0+20160317120654",
     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
     "selenium-webdriver": "registry:dt/selenium-webdriver#2.44.0+20160317120654"
   },
   "globalDependencies": {
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160619023404",
     "es6-shim": "registry:dt/es6-shim#0.31.2+20160602141504"
   }
 }

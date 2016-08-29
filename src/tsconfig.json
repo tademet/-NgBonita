@@ -15,7 +15,10 @@
     "target": "es5",
     "inlineSources": true
   },
-
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ],
   "files": [
     "main.ts",
     "typings.d.ts"

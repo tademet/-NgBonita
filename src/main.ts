@@ -1,9 +1,10 @@
-import { bootstrap } from '@angular/platform-browser-dynamic';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
-import { AppComponent, environment } from './app/';
+import { NgBonita } from './app/ngBonita.module';
+import { environment } from './app/';
 
 if (environment.production) {
   enableProdMode();
 }
 
-bootstrap(AppComponent);
+platformBrowserDynamic().bootstrapModule(NgBonita);

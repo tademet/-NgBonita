@@ -11,7 +11,7 @@ gulp.task('npm', function() {
 
   fieldsToCopy.forEach(function(field) { targetPkgJson[field] = pkgJson[field]; });
 
-  targetPkgJson['main'] = 'index.js';
+  targetPkgJson['main'] = 'main.js';
   targetPkgJson['jsnext:main'] = 'esm/index.js';
 
   targetPkgJson.peerDependencies = {};

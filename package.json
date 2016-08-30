@@ -1,8 +1,12 @@
 {
   "name": "ng-bonita",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "license": "MIT",
   "angular-cli": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tademet/-NgBonita"
+  },
   "scripts": {
     "start": "ng serve",
     "postinstall": "typings install",
@@ -34,6 +38,7 @@
     "angular-cli": "1.0.0-beta.10",
     "codelyzer": "0.0.20",
     "ember-cli-inject-live-reload": "1.4.0",
+    "graceful-fs": "^4.1.6",
     "gulp": "^3.9.1",
     "gulp-file": "^0.3.0",
     "gulp-typescript": "^2.13.6",

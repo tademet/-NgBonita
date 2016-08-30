@@ -1,6 +1,7 @@
 {
   "globalDevDependencies": {
     "angular-protractor": "registry:dt/angular-protractor#1.5.0+20160425143459",
+    "graceful-fs": "registry:dt/graceful-fs#2.0.0+20160316155526",
     "gulp": "registry:dt/gulp#3.8.0+20160724062653",
     "gulp-typescript": "registry:dt/gulp-typescript#0.0.0+20160317120654",
     "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
